@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="TOP_CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="350.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mdsf3fstopwatchfxml.FXMLDocumentController">
+   <children>
+      <StackPane prefHeight="324.0" prefWidth="350.0">
+         <children>
+            <ImageView fitHeight="321.0" fitWidth="505.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@clockface.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="hand" fitHeight="324.0" fitWidth="648.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@hand.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="minuteHand" fitHeight="321.0" fitWidth="333.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@hand.png" />
+               </image>
+            </ImageView>
+         </children>
+      </StackPane>
+      <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+         <children>
+            <Label fx:id="minutes" text="00">
+               <font>
+                  <Font name="Times New Roman" size="40.0" />
+               </font>
+            </Label>
+            <Label text=":">
+               <font>
+                  <Font name="Times New Roman" size="40.0" />
+               </font>
+            </Label>
+            <Label fx:id="seconds" text="00">
+               <font>
+                  <Font name="Times New Roman" size="40.0" />
+               </font>
+            </Label>
+            <Label text=":">
+               <font>
+                  <Font name="Times New Roman" size="40.0" />
+               </font>
+            </Label>
+            <Label fx:id="milis" text="00">
+               <font>
+                  <Font name="Times New Roman" size="40.0" />
+               </font>
+            </Label>
+         </children>
+      </HBox>
+      <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+         <children>
+            <Button fx:id="start" mnemonicParsing="false" onAction="#handleStartButton" text="Start" />
+            <Button fx:id="stop" mnemonicParsing="false" onAction="#handleStopButton" text="Stop" />
+            <Button fx:id="reset" mnemonicParsing="false" onAction="#handleResetButton" text="Reset" />
+         </children>
+      </HBox>
+   </children>
+</VBox>

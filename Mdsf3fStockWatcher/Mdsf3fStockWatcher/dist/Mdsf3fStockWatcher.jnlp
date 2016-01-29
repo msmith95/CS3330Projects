@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Mdsf3fStockWatcher.jnlp">
+  <information>
+    <title>Mdsf3fStockWatcher</title>
+    <vendor>Michael</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="Mdsf3fStockWatcher.jar" size="16571" download="eager" />
+    <jar href="lib/commons-codec-1.9.jar" size="263965" download="eager" />
+    <jar href="lib/commons-logging-1.2.jar" size="61829" download="eager" />
+    <jar href="lib/httpclient-4.5.1.jar" size="732765" download="eager" />
+    <jar href="lib/httpclient-win-4.5.1.jar" size="17369" download="eager" />
+    <jar href="lib/httpcore-4.4.3.jar" size="326594" download="eager" />
+    <jar href="lib/java-json.jar" size="84697" download="eager" />
+    <jar href="lib/sqlite-jdbc-3.8.11.2.jar" size="5575351" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="Mdsf3fStockWatcher" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="mdsf3fstockwatcher.Mdsf3fStockWatcher"  name="Mdsf3fStockWatcher" />
+  <update check="always"/>
+</jnlp>

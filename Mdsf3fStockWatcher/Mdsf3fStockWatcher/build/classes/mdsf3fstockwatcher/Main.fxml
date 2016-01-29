@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="850.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mdsf3fstockwatcher.MainController">
+   <children>
+      <MenuBar prefHeight="29.0" prefWidth="850.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="File">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#handleClose" text="Close" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Help">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#handleAbout" text="About" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+      <VBox fx:id="stockInfo" layoutX="495.0" layoutY="106.0" prefHeight="494.0" prefWidth="355.0" />
+      <Label layoutX="592.0" layoutY="59.0" text="Selected Stock Information" />
+      <ComboBox fx:id="tickers" layoutX="91.0" layoutY="75.0" prefWidth="150.0" />
+      <Button layoutX="85.0" layoutY="149.0" mnemonicParsing="false" onAction="#handleRetreive" text="Retrieve Stock Information" />
+      <TextField fx:id="tickerToAdd" layoutX="91.0" layoutY="353.0" promptText="Company Ticker" />
+      <Button layoutX="125.0" layoutY="415.0" mnemonicParsing="false" onAction="#handleAdd" text="Add Ticker" />
+      <Label fx:id="status" layoutX="36.0" layoutY="265.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="16.0" prefWidth="273.0" />
+      <Button layoutX="102.0" layoutY="209.0" mnemonicParsing="false" onAction="#handleRemove" text="Remove Company" />
+   </children>
+</AnchorPane>

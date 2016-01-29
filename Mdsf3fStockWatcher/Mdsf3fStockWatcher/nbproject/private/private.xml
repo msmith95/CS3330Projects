@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/Users/Michael/NetBeansProjects/Mdsf3fStockWatcher/src/mdsf3fstockwatcher/About.fxml</file>
+            <file>file:/Users/Michael/NetBeansProjects/Mdsf3fStockWatcher/src/mdsf3fstockwatcher/AboutController.java</file>
+            <file>file:/Users/Michael/NetBeansProjects/Mdsf3fStockWatcher/src/mdsf3fstockwatcher/GetStockTask.java</file>
+            <file>file:/Users/Michael/NetBeansProjects/Mdsf3fStockWatcher/src/mdsf3fstockwatcher/AsyncTask.java</file>
+            <file>file:/Users/Michael/NetBeansProjects/Mdsf3fStockWatcher/src/mdsf3fstockwatcher/SceneSwitcher.java</file>
+            <file>file:/Users/Michael/NetBeansProjects/Mdsf3fStockWatcher/src/mdsf3fstockwatcher/Main.fxml</file>
+            <file>file:/Users/Michael/NetBeansProjects/Mdsf3fStockWatcher/src/mdsf3fstockwatcher/DBHelper.java</file>
+            <file>file:/Users/Michael/NetBeansProjects/Mdsf3fStockWatcher/src/mdsf3fstockwatcher/GetCompanyInfo.java</file>
+            <file>file:/Users/Michael/NetBeansProjects/Mdsf3fStockWatcher/src/mdsf3fstockwatcher/MainController.java</file>
+            <file>file:/Users/Michael/NetBeansProjects/Mdsf3fStockWatcher/src/mdsf3fstockwatcher/Stock.java</file>
+            <file>file:/Users/Michael/NetBeansProjects/Mdsf3fStockWatcher/src/mdsf3fstockwatcher/Company.java</file>
+            <file>file:/Users/Michael/NetBeansProjects/Mdsf3fStockWatcher/src/mdsf3fstockwatcher/Mdsf3fStockWatcher.java</file>
+        </group>
+    </open-files>
+</project-private>
